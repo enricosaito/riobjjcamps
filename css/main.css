@@ -2163,21 +2163,21 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Default image size for desktop */
 .logo-img {
-  width: 300px;
+  width: auto;
   height: auto;
 }
 
 /* For screens smaller than 768px (e.g., tablets and phones) */
 @media (max-width: 768px) {
   .logo-img {
-      width: 200px; /* Reduce the size on smaller screens */
+      width: 500px; /* Reduce the size on smaller screens */
   }
 }
 
 /* For very small screens (e.g., mobile phones) */
 @media (max-width: 576px) {
   .logo-img {
-      width: 150px; /* Further reduce the size for mobile phones */
+      width: 300px; /* Further reduce the size for mobile phones */
   }
 }
 

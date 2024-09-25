@@ -33,6 +33,11 @@
 
 </head>
 <body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
     <!-- start banner Area -->
     <section class="banner-area" id="home">
         <!-- Start Header Area -->
@@ -568,5 +573,12 @@
                 }
             });
         </script>
+    <script>
+        window.addEventListener("load", function () {
+            document.getElementById("preloader").style.display = "none";
+            document.getElementById("main-content").style.display = "block";
+        });
+    </script>
+    
 </body>
 </html>

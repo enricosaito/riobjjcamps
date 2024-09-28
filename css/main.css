@@ -2127,6 +2127,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Changes here so ABACAXI */
+.camp-package {
+  background: #f9f9ff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.camp-package h3 {
+  color: #222;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.package-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.package-list li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #777;
+}
+
+.package-list li i {
+  color: #fab700;
+  margin-right: 10px;
+}
 /* Preloader */
 #preloader {
   position: fixed;
